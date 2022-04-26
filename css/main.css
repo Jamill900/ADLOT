@@ -237,6 +237,10 @@ div#loading img {
   z-index: 9999;
 }
 
+p > span {
+  color: #e50303;
+}
+
 .preloader {
   display: flex;
   align-items: center;
@@ -248,6 +252,17 @@ div#loading img {
 
 .preloader img {
   width: 200px;
+}
+
+.team > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+.team > div > img {
+  border-radius: 400px;
 }
 
 /*Header Css StaRT*/
